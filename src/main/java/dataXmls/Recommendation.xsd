@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.example.org/RecommendationFinder" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema">
+<element name="RecommendationList">
+	<complexType>
+		<sequence>
+			<element name="Recommendation" minOccurs="1" maxOccurs="unbounded">
+				<complexType>
+					<sequence>
+						<element name="Id" minOccurs="1" maxOccurs="1" type="integer"></element>
+						<element name="UserId" minOccurs="1" maxOccurs="1" type="integer"></element>
+						<element name="RestaurantId" minOccurs="1" maxOccurs="1" type="integer"></element>
+						<element name="DateAdded" minOccurs="1" maxOccurs="1" type="dateTime"></element>
+					</sequence>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+</element>
+</schema>

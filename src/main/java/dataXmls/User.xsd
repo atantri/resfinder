@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.example.org/UserFinder" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema">
+<element name="UserList">
+	<complexType>
+		<sequence>
+			<element name="User" minOccurs="1" maxOccurs="unbounded">
+				<complexType>
+					<sequence>
+						<element name="Id" minOccurs="1" maxOccurs="1" type="integer"></element>
+						<element name="Name" minOccurs="1" maxOccurs="1" type="string"></element>
+						<element name="EmailId" minOccurs="1" maxOccurs="1" type="string"></element>
+						<element name="Password" minOccurs="1" maxOccurs="1" type="string"></element>
+						<element name="Rank" minOccurs="1" maxOccurs="1" type="integer"></element>
+						<element name="LastLoginTime" minOccurs="1" maxOccurs="1" type="dateTime"></element>
+						<element name="LastLogoutTime" minOccurs="1" maxOccurs="1" type="dateTime"></element>
+					</sequence>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+</element>
+</schema>

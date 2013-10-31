@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.example.org/ManagerFinder" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema">
+<element name="ManagerList">
+	<complexType>
+		<sequence>
+			<element name="Manager" minOccurs="1" maxOccurs="unbounded">
+				<complexType>
+					<sequence>
+						<element name="Id" minOccurs="1" maxOccurs="1" type="integer"></element>
+						<element name="RestaurantId" minOccurs="1" maxOccurs="1" type="integer"></element>
+						<element name="Phone" minOccurs="1" maxOccurs="1" type="string"></element>
+						<element name="Address" minOccurs="1" maxOccurs="1" type="string"></element>
+					</sequence>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+</element>
+</schema>

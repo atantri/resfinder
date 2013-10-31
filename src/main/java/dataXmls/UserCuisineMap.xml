@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserCuisineMapList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.example.org/UserCuisineMapFinder" xsi:noNamespaceSchemaLocation="UserCuisineMap.xsd">
+ 	<UserCuisineMap>
+ 		<Id>1</Id>
+		<UserId>1</UserId>
+		<CuisineId>2</CuisineId>
+ 	</UserCuisineMap> 	
+ 	<UserCuisineMap>
+ 		<Id>2</Id>
+		<UserId>2</UserId>
+		<CuisineId>1</CuisineId>
+ 	</UserCuisineMap>
+</UserCuisineMapList>

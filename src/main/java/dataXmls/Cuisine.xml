@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CuisineList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.example.org/CuisineFinder" xsi:noNamespaceSchemaLocation="Cuisine.xsd">
+	<Cuisine>
+		<Id>1</Id>
+		<Name> French </Name>
+		<Description> Salade niçoise, Bouillabaisse, Ratatouille, Seafood </Description>
+	</Cuisine>	
+	<Cuisine>
+		<Id>2</Id>
+		<Name> Southern </Name>
+		<Description> Fried Chicken, Coleslaw, Cheese Fries </Description>
+	</Cuisine>
+</CuisineList>

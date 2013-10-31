@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.example.org/RestaurantCuisineMapFinder" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema">
+<element name="RestaurantCuisineMapList">
+	<complexType>
+		<sequence>
+			<element name="RestaurantCuisineMap" minOccurs="1" maxOccurs="unbounded">
+				<complexType>
+					<sequence>
+						<element name="Id" minOccurs="1" maxOccurs="1" type="integer"></element>
+						<element name="RestaurantId" minOccurs="1" maxOccurs="1" type="integer"></element>
+						<element name="CuisineId" minOccurs="1" maxOccurs="1" type="integer"></element>
+					</sequence>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+</element>
+</schema>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagerList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.example.org/ManagerFinder" xsi:noNamespaceSchemaLocation="Manager.xsd">
+	<Manager>
+		<Id>1</Id>
+		<RestaurantId>1</RestaurantId>
+		<Phone>614-596-2353</Phone>
+		<Address>711 Bethel Rd, Columbus, OH</Address>
+	</Manager>		
+</ManagerList>

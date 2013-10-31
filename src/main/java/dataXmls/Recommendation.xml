@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecommendationList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.example.org/RecommendationFinder" xsi:noNamespaceSchemaLocation="Recommendation.xsd">
+	<Recommendation>
+		<Id>1</Id>
+		<UserId>1</UserId>
+		<RestaurantId>2</RestaurantId>
+		<DateAdded> 2013-09-19T20:32:52 </DateAdded>
+	</Recommendation>	
+	<Recommendation>
+		<Id>2</Id>
+		<UserId>2</UserId>
+		<RestaurantId>1</RestaurantId>
+		<DateAdded> 2013-09-19T22:32:52 </DateAdded>
+	</Recommendation>
+</RecommendationList>

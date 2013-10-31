@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RestaurantList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.example.org/RestaurantFinder" xsi:noNamespaceSchemaLocation="Restaurant.xsd">
+	<Restaurant>
+		<Id>1</Id>
+		<Name>KFC</Name>
+		<Rating>3</Rating>
+		<Address>711 Bethel Rd, Columbus, OH </Address>
+		<LocationId>1</LocationId>
+	</Restaurant>	
+	<Restaurant>
+		<Id>2</Id>
+		<Name>McDonald's</Name>
+		<Rating>4</Rating>
+		<Address>910 W 5th Ave, Columbus, OH‎</Address>
+		<LocationId>2</LocationId>
+	</Restaurant>	
+</RestaurantList>
