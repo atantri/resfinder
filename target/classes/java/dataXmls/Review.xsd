@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.example.org/ReviewFinder" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema">
+<element name="ReviewList">
+	<complexType>
+		<sequence>
+			<element name="Review" minOccurs="1" maxOccurs="unbounded">
+				<complexType>
+					<sequence>
+						<element name="Id" minOccurs="1" maxOccurs="1" type="integer"></element>
+						<element name="RestaurantId" minOccurs="1" maxOccurs="1" type="integer"></element>
+						<element name="UserId" minOccurs="1" maxOccurs="1" type="integer"></element>
+						<element name="DateTimeAdded" minOccurs="1" maxOccurs="1" type="dateTime"></element>
+						<element name="Content" minOccurs="1" maxOccurs="1" type="string"></element>
+						<element name="Upvotes" minOccurs="1" maxOccurs="1" type="integer"></element>
+						<element name="Downvotes" minOccurs="1" maxOccurs="1" type="integer"></element>
+						<element name="Category" minOccurs="1" maxOccurs="1" type="string"></element>
+					</sequence>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+</element>
+</schema>

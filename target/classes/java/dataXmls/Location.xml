@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LocationList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.example.org/LocationFinder" xsi:noNamespaceSchemaLocation="Location.xsd">
+	<Location>
+		<Id>1</Id>
+		<Name> High Street </Name>
+	</Location>
+	<Location>
+		<Id>2</Id>
+		<Name> Bethel Rd </Name>
+	</Location>
+</LocationList>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.example.org/UserFinder" xsi:noNamespaceSchemaLocation="User.xsd">
+	<User>
+		<Id>1</Id>
+		<Name>Alice</Name>
+		<EmailId>alice.1111@gmail.com</EmailId> 
+		<Password>123456</Password>
+		<Rank>4</Rank>
+		<LastLoginTime>2013-09-19T21:32:52</LastLoginTime>
+		<LastLogoutTime>2013-09-19T23:32:52</LastLogoutTime>
+	</User>
+	<User>
+		<Id>2</Id>
+		<Name>Ben</Name>
+		<EmailId>Ben.2222@gmail.com</EmailId> 
+		<Password>234567</Password>
+		<Rank>5</Rank>
+		<LastLoginTime>2013-09-11T21:20:02</LastLoginTime>
+		<LastLogoutTime>2013-09-11T21:44:31</LastLogoutTime>
+	</User>
+</UserList>

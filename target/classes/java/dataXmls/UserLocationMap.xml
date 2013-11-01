@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UserLocationMapList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.example.org/UserLocationMapFinder" xsi:noNamespaceSchemaLocation="UserLocationMap.xsd">
+ 	<UserLocationMap>
+ 		<Id>1</Id>
+		<UserId>1</UserId>
+		<LocationId>2</LocationId>
+ 	</UserLocationMap>
+ 	<UserLocationMap>
+ 		<Id>2</Id>
+		<UserId>2</UserId>
+		<LocationId>1</LocationId>
+ 	</UserLocationMap>
+</UserLocationMapList>

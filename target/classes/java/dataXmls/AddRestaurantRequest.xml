@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AddRestaurantRequestList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.example.org/AddRestaurantRequestFinder" xsi:noNamespaceSchemaLocation="AddRestaurantRequest.xsd">
+	<AddRestaurantRequest>
+		<Id>1</Id>
+		<ManagerId>1</ManagerId>
+		<RestaurantName>KFC</RestaurantName>
+		<CuisineString>Fast Food</CuisineString>
+		<Address>711 Bethel Rd, Columbus, OH</Address>
+		<Status>PENDING</Status>
+	</AddRestaurantRequest>	
+</AddRestaurantRequestList>

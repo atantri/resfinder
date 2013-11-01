@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReviewList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.example.org/ReviewFinder" xsi:noNamespaceSchemaLocation="Review.xsd">
+	<Review>
+		<Id>1</Id>
+		<RestaurantId>2</RestaurantId>
+		<UserId>1</UserId>
+		<DateTimeAdded>2013-09-19T21:32:52</DateTimeAdded>
+		<Content> Love the new hamburger!!! Long queue to wait. </Content>
+		<Upvotes>3</Upvotes>
+		<Downvotes>2</Downvotes>
+		<Category>Good</Category>
+	</Review>	
+</ReviewList>

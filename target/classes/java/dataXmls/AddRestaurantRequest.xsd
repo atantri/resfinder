@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.example.org/AddRestaurantRequestFinder" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns="http://www.w3.org/2001/XMLSchema">
+<element name="AddRestaurantRequestList">
+	<complexType>
+		<sequence>
+			<element name="AddRestaurantRequest" minOccurs="1" maxOccurs="unbounded">
+				<complexType>
+					<sequence>
+						<element name="Id" minOccurs="1" maxOccurs="1" type="integer"></element>
+					  	<element name="ManagerId" minOccurs="1" maxOccurs="1" type="integer"></element>
+						<element name="RestaurantName" minOccurs="1" maxOccurs="1" type="string"></element>
+						<element name="CuisineString" minOccurs="1" maxOccurs="1" type="string"></element>
+						<element name="Address" minOccurs="1" maxOccurs="1" type="string"></element>
+						<element name="Status" minOccurs="1" maxOccurs="1" type="string"></element>
+					</sequence>
+				</complexType>
+			</element>
+		</sequence>
+	</complexType>
+</element>
+</schema>
