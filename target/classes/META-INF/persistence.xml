@@ -5,16 +5,16 @@
 	  <!--  <jta-data-source>java:jboss/datasources/ResfinderDS</jta-data-source>-->
 	  <provider>org.hibernate.ejb.HibernatePersistence</provider>
 	   
-	   <class>Restaurant</class>
-	   <class>Cuisine</class>
-	   <class>AddRestaurantRequest</class>
-	   <class>Location</class>
-	   <class>Manager</class>
-	   <class>Person</class>
-	   <class>Recommendation</class>
+	   <class>domain.Restaurant</class>
+	   <class>domain.Cuisine</class>
+	   <class>domain.AddRestaurantRequest</class>
+	   <class>domain.Location</class>
+	   <class>domain.Manager</class>
+	   <class>domain.Person</class>
+	   <class>domain.Recommendation</class>
 	   
-	   <class>Review</class>
-	   <class>User</class>
+	   <class>domain.Review</class>
+	   <class>domain.User</class>
 	
 	   <properties>
             <property name="hibernate.hbm2ddl.auto" value="create-drop"/>

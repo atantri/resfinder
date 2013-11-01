@@ -5,7 +5,7 @@ import javax.persistence.*;
 
 public class Restaurant {
 	@Id
-	@GeneratedValue(strategy=GenerationType.SEQUENCE,generator="RES_SEQ")
+	@GeneratedValue(strategy=GenerationType.SEQUENCE)
 	int id;
 	String name;
 	Manager manager;
