@@ -1,7 +1,7 @@
 package mainclass;
 import parseXml.XmlParser;
 
-public class MainClass {
+public class mainClass {
 
 	public static void main(String[] args) {
 		XmlParser parser = new XmlParser("Location.xml");
